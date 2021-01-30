@@ -65,6 +65,9 @@ h4{
 /* TYPOGRAPHY */
 
 /* LAYOUT */
+.navbar-nav{
+    margin-left: auto;
+}
 .description .aa{
     margin: 50px 0 0 150px;
 }
@@ -109,6 +112,12 @@ h4{
 .join-us .container{
     background: #514663;
     border-radius: 16px;
+}
+
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* LAYOUT */
 
@@ -196,9 +205,6 @@ h4{
     .footer-logo{
         grid-column: 1/4;
         grid-row: 1/1;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 
     .navigation{
