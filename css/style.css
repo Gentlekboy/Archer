@@ -185,12 +185,20 @@ h4{
         line-height: 26px;
     }
 
+    .p-text{
+        width: 100%;
+    }
+
     .video{
         height: 40vh;
     }
 
-    .about-pictures, .service-pictures, .statistics-pictures, .testimonial-grid, footer .container{
+    .about-pictures, .service-pictures, .statistics-pictures, .testimonial-grid, footer .container, .about-two-grid, .work-process-grid{
         grid-template-columns: 1fr;
+    }
+
+    .work-process-one, .work-process-two, .work-process-three, .work-process-four{
+        margin-top: 0;
     }
 
     .join-us .container{
