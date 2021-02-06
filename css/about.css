@@ -1,0 +1,23 @@
+.about-two-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-gap: 20px;
+}
+
+.work-process-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.work-process-two{
+    margin-top: 50px;
+}
+
+.work-process-three{
+    margin-top: 100px;
+}
+
+.work-process-four{
+    margin-top: 150px;
+}
