@@ -193,11 +193,11 @@ h4{
         height: 40vh;
     }
 
-    .about-pictures, .service-pictures, .statistics-pictures, .testimonial-grid, footer .container, .about-two-grid, .work-process-grid{
+    .about-pictures, .service-pictures, .statistics-pictures, .testimonial-grid, footer .container, .about-two-grid, .work-process-grid, .service-two-grid{
         grid-template-columns: 1fr;
     }
 
-    .work-process-one, .work-process-two, .work-process-three, .work-process-four{
+    .work-process-one, .work-process-two, .work-process-three, .work-process-four, .service-two-grid-one, .service-two-grid-two, .service-two-grid-three{
         margin-top: 0;
     }
 

@@ -1,0 +1,17 @@
+.service-two-grid, .plan-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.service-two-grid-two{
+    margin-top: 50px;
+}
+
+.service-two-grid-three{
+    margin-top: 100px;
+}
+
+.plan{
+    background: rgb(81, 70, 99, 0.1);
+}
